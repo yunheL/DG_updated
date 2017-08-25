@@ -14,7 +14,7 @@ The experiment script will create a log file for the evluation output.
 **ps\_hosts:** The IP addresses of ps instances.  
 **worker\_hosts:** The IP addresses of worker instances.  
 **num\_partition:** How many partitions is the gradient divided into. For is example, if --num\_partition=4, then each partition is 25% of the gradient.  
-**num\_batch:** Number of partitions to kee during training.
+**num\_batch:** Number of partitions to keep during training.
 
 # Contact
 Please contact Yunhe <liu348@wisc.edu> or Xiangjin <xwu@cs.wisc.edu> if you have concerns or questions. Thank you!
