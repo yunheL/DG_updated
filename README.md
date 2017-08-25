@@ -4,9 +4,11 @@
 This MNIST\_TF implementation attemps to partition the training gradient and only use part of the gradient for training.
 
 # Usage
-Run ps.sh and experiment.sh to start for experiment. They can either be on the same instance or different ones.  
+Run ps.sh and experiment.sh to start experiment. They can either be on the same instance or different ones.  
 
-The experiment script will create a log file for the evluation out put.  
+Modify the important parameters listed below before starting the experiment.
+
+The experiment script will create a log file for the evluation output.  
 
 ## Important Parameters
 **ps\_hosts:** The IP addresses of ps instances.  
@@ -15,4 +17,4 @@ The experiment script will create a log file for the evluation out put.
 **num\_batch:** Number of partitions to kee during training.
 
 # Contact
-Please contact Yunhe <liu348@wisc.edu> if you have concerns or questions. Thank you!
+Please contact Yunhe <liu348@wisc.edu> and Xiangjin <xwu@cs.wisc.edu> if you have concerns or questions. Thank you!
