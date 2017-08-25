@@ -9,10 +9,10 @@ Run ps.sh and experiment.sh to start for experiment. They can either be on the s
 The experiment script will create a log file for the evluation out put.  
 
 ## Important Parameters
-** ps\_hosts: ** The IP addresses of ps instances.  
-** worker\_hosts: ** The IP addresses of worker instances.  
-** num\_partition: ** How many partitions is the gradient divided into. For is example, if --num\_partition=4, then each partition is 25% of the gradient.  
-** num\_batch: ** Number of partitions to kee during training.
+**ps\_hosts:** The IP addresses of ps instances.  
+**worker\_hosts:** The IP addresses of worker instances.  
+**num\_partition:** How many partitions is the gradient divided into. For is example, if --num\_partition=4, then each partition is 25% of the gradient.  
+**num\_batch:** Number of partitions to kee during training.
 
 # Contact
 Please contact Yunhe <liu348@wisc.edu> if you have concerns or questions. Thank you!
